@@ -32,7 +32,7 @@ p {
     height: 169px;
 }
 
-photo-overlay {
+.photo-overlay {
     color: #fff;
     position: absolute;
     top: 0;
@@ -68,7 +68,7 @@ photo-overlay {
     height: 100%;
     color: #fff;
 }
-.photo-overlay :hover {
+.photo-overlay:hover {
     opacity: 1;
 }
 
