@@ -1,25 +1,25 @@
-    /* *****************************************
-        Authour: Daniel Christie
-        checkoutay.space
-    ********************************************
+/* *****************************************
+    Authour: Daniel Christie
+    checkoutay.space
+********************************************
         GENERIC STYLE
-    ******************************************** */
-    html {
-        font-family: sans-serif;
-        font-size: 62.5%;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-        -webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;
-    }
+******************************************** */
+html {
+    font-family: sans-serif;
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
 
-    body {
-        font-size: 14px;
-        margin: 0;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        line-height: 1.42857143;
-        color: #333;
-        background-color: #fff;
-    }
+body {
+    font-size: 14px;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
 
 footer,
 nav {
@@ -112,12 +112,12 @@ section {
     margin-left: -15px;
 }
 
-.clearfix::after,
-.container::after,
-.navbar::after {
+.clearfix:after,
+.container:after,
+.navbar:after {
     clear:both;
     display: table;
-    content: "";
+    content: " ";
 }
 
 .wrap {
@@ -134,9 +134,9 @@ section {
 }
 
 .menu-container {
-    max-height: 340ox;
+    max-height: 340px;
     margin: 0% auto;
-    content: "";
+    content: " ";
     /* top 0;
     left 0; */
     /* posision absolute;*/ /*to the top edge of the screen*/
@@ -152,9 +152,9 @@ section {
 #home {
     background: url(../images/planets.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
-
-
-
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     width: 100%;
     display: block;
@@ -187,7 +187,7 @@ section {
 }
 
 .head-last {
-    font-size: 10px;
+    font-size: 18px;
     font-weight: 900;
     padding: 5px 20px 20px 20px;
     border: 1px dotted #fff;
@@ -305,7 +305,7 @@ section {
     float: right;
 }
 
-.term:hover {
+.terms:hover {
     color: orange;
     text-decoration: underline;
 }
@@ -338,10 +338,9 @@ section {
     FOOTER STYLES
 ********************************************** */
 #footer {
-    background-color: rgba(0, 0, 0, 4);
+    background-color: rgba(100, 65, 0, 0.3);
     color: #000;
-    text-shadow: 2px 2px 6px 0 (0,0,0,0.4);
+    text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
     padding: 20px 50px 20px 50px;
     text-align: right;
 }
-
