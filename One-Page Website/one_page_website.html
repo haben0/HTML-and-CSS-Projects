@@ -7,6 +7,7 @@
     </head>
 <html>
     <body>
+      
       <!--THis section is Home and nav bookmark-->
       <p><a href="#About Section">About</a></p>
       <p><a href="#Contact Section">Contact Us</a></p>
@@ -43,10 +44,78 @@
                 <option value="usa">Wales</option>
               </select>
            
-              <input type="submit" value="Submit">
+              <input type="submit" value="Submit"><br><br>
           
             </form>
           </div>
+          
+          <h2 style="text-align:center">Course</h2>
+
+          <div class="row">
+            <div class="column">
+              <img src="images/HTML.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+              <img src="images/css.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+              <img src="images/JS.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+              <img src="images/Web Programing.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            </div>
+          </div>
+          
+          <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+          
+              <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="images/HTML.png" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="images/css.png" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="images/JS.png" style="width:100%">
+              </div>
+              
+              <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="images/Web Programing.png" style="width:100%">
+              </div>
+              
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+          
+          
+              <div class="column">
+                <img class="demo cursor" src="images/HTML.png" style="width:100%" onclick="currentSlide(1)" alt="HTML">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="images/css.png" style="width:100%" onclick="currentSlide(2)" alt="CSS">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="images/JS.png" style="width:100%" onclick="currentSlide(3)" alt="JavaScript">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="images/Web Programing.png" style="width:100%" onclick="currentSlide(4)" alt="Web Programing">
+              </div>
+            </div>
+          </div>
+
+
+<script src="JS/one_page_website.js"></script>
+
 
           <!--This is footer Section-->
           <footer>&copy; Copyright 2021 HTML Course</footer> 
